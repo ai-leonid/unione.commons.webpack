@@ -1,0 +1,91 @@
+@import '../../theme/core.less';
+
+.ooc-button-v2 {
+    &.ant-btn {
+        height: @btn-v2-height;
+        border-radius: @btn-v2-border-radius;
+        font-family: @btn-v2-font-family;
+        font-size: @btn-v2-font-size;
+        font-weight: @btn-v2-font-weight;
+        line-height: @btn-v2-line-height;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:not(.ant-btn-block) {
+            // если не во всю ширину родителя
+            max-width: @btn-v2-max-width;
+        }
+
+        .anticon {
+            line-height: 0;
+            font-size: 20px;
+        }
+
+        &-primary {
+            background: linear-gradient(94.25deg, #007BE0 -0.43%, #0058A0 54.69%);
+            border-color: @btn-v2-color-primary;
+            color: @btn-v2-color-secondary;
+
+            &:hover {
+                background: @primary-color;
+                transition: none;
+            }
+        }
+
+        &-ghost {
+            // background-color: @btn-v2-color-secondary;
+            border-color: @btn-v2-color-primary;
+            color: @btn-v2-color-primary;
+        }
+
+        &-link {
+            display: inline-block;
+            height: fit-content;
+            padding: 0;
+            color: @btn-v2-color-primary;
+        }
+
+        &__download {
+            height: initial;
+            width: initial;
+            padding: initial;
+            border: initial;
+            background: initial;
+            font-size: 18px;
+
+            &:focus {
+                color: @text-primary;
+                background: @bg-primary;
+                border-color: @bg-primary;
+            }
+
+            &:hover {
+                color: @text-primary;
+                background: @bg-primary;
+                border-color: @bg-primary;
+            }
+        }
+    }
+
+    &--checkbox.ant-checkbox-wrapper {
+        font-family: @btn-v2-font-family;
+        font-size: @btn-v2-font-size;
+        font-style: normal;
+        font-weight: 400;
+        line-height: @btn-v2-line-height;
+        color: @bc-color;
+
+        .ant-checkbox {
+            &-inner {
+                border-radius: 2px;
+                border: 1px solid @login-separator-line;
+                background-color: @btn-v2-color-secondary;
+            }
+
+            &-checked .ant-checkbox-inner {
+                background-color: @btn-v2-color-primary;
+            }
+        }
+    }
+}

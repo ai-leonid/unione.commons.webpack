@@ -1,0 +1,150 @@
+@import "./mixins/typography.less";
+
+// fonts
+@font-headers: 'Montserrat', sans-serif;
+@font-content: 'IBM Plex sans', sans-serif;
+
+// generics
+@primary-color: #0071CE;
+@primary-color-o-10: #0071CE10;
+@primary-color-o-40: #0071CE40;
+@primary-color-o-60: #0071CE60;
+@text-primary: #333;
+@text-secondary: white;
+@bg-primary: #F5F6F8;
+@bg-secondary: #FFFFFF;
+@bc-color: #12152A;
+@bc-color-0-40: #12152A40;
+@bc-color-0-70: #12152A70;
+@modal-close: #374957;
+@modal-success-o-60: #15B012CC;
+@error-label-color: #EB5757;
+@modal-error-o-60: #EB575799;
+@separator-color: #71737F;
+@separator-color-v2: #E4E7F2;
+@border-color: #E4E7F2;
+@login-separator-line: @border-color;
+@label-color: #6F7C98;
+@login-label: @label-color;
+
+// color pallete v2
+@brand-primary-color: #0071CE;
+@brand-prime: #0071CE;
+@brand-secondary-color: #15B012;
+@brand-second: #15B012;
+// text
+@text-primary-color: #3B4168;
+@text-secondary-color: #6F7C98;
+@text-help-color: #909EBB;
+@text-link-color: #0071CE;
+@text-link-visited-color: #7D6FE1;
+// elements
+@el-white-color: #FFFFFF;
+@el-black-color: #12152A;
+@el-bg-color: #F5F6F8;
+@el-gray-color: #909EBB;
+@el-lines-color: #E4E7F2;
+@el-disabled-color: #BDBDBD;
+@el-active-color: #99C6EB;
+@el-active-2-color: #F5F5F7;
+@el-hover-color: #005EAC;
+@el-hover-2-color: #F5FBFF;
+// status
+@status-green-color: #73D071;
+@status-green-2-color: #85DB83;
+@status-warning-color: #F7B055;
+@status-error-color: #EB5757;
+@status-error-2-color: #F39A9A;
+// colors
+@colors-tokyo: #07B4CF;
+@colors-baku: #F3B944;
+@colors-lisbon: #E26C3C;
+@colors-helsinki: #73AAFF;
+@colors-prague: #7B61FF;
+
+// paddings & margins
+@step-0: 4px;
+@step-1: 8px;
+@step-10: 12px; // @step-1 + @step-0
+@step-2: 16px;
+@step-20: 20px; // @step-2 + @step-0
+@step-3: 24px;
+@step-30: 28px; // @step-3 + @step-0
+@step-4: 32px;
+@step-40: 36px; // @step-4 + @step-0
+@step-41: 40px; // @step-4 + @step-1
+@step-5: 48px;
+@step-50: 52px; // @step-5 + @step-0
+@step-51: 56px; // @step-5 + @step-1
+@step-6: 64px;
+@step-61: 72px; // @step-6 + @step-1
+
+// page title
+@page-title-size: 28px;
+@page-title-weight: 700;
+@page-title-line-height: 36px;
+@page-title-margin-bottom: 18px;
+
+// scroll, ::-webkit-scrollbar
+@scroll-primary: #8E9FAD;
+@scroll-color: #DAE4EE;
+
+// navigation
+@nav-height: 72px;
+@nav-margin-bottom: @step-1;
+
+// previous page panel
+@prev-panel-height: 92px;
+
+// fonts
+@font-family: @font-headers;
+
+// tabs
+@tabs-bg-color: @bg-primary;
+@tabs-border-radius: 30px;
+@tabs-border-color-45: rgba(51, 51, 51, 0.45);
+@tabs-active-tab-color: @text-primary;
+@font-size: 20px;
+@font-style: normal;
+@font-weight: 400;
+@line-height: 24px;
+@letter-spacing: 0em;
+
+// buttons
+@btn-primary-color: @primary-color;
+@btn-font: @font-content;
+@btn-line-height: 20px;
+@btn-button-height: 58px;
+@btn-border-radius: 10px;
+
+// buttons v2
+@btn-v2-font-family: @font-content;
+@btn-v2-height: 44px;
+@btn-v2-max-width: 215px; //С этим лучше что-то сделать. Зачем задавать максимальную ширину всем кнопкам?
+@btn-v2-border-radius: 4px;
+@btn-v2-font-size: 16px;
+@btn-v2-font-weight: 500;
+@btn-v2-line-height: 20px;
+@btn-v2-color-primary: @primary-color;
+@btn-v2-color-secondary: @text-secondary;
+
+// inputs
+@inp-font-family: @font-content;
+@inp-border-radius: 10px;
+@inp-font-size: 20px;
+@inp-font-style: normal;
+@inp-font-weight: 400;
+@inp-line-height: 26px;
+@inp-letter-spacing: 0em;
+@inp-text-align: left;
+
+// inputs v2
+@inp-v2-height: 40px;
+@inp-v2-border: 1px solid @border-color;
+@inp-v2-border-radius: 4px;
+@inp-v2-padding: 12px 16px;
+@inp-v2-font-size: 16px;
+@inp-v2-line-height: 20px;
+
+// heatmap
+@heatmap-width: 960px;

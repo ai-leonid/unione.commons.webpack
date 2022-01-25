@@ -1,0 +1,31 @@
+{
+  "ru": {
+    "navigation": {
+      "educational-programs": "Образовательные программы",
+      "educational-control": "Контроль обучения",
+      "monitoring": "Мониторинг",
+      "monitoring-ooc-process": "Мониторинг обучения ППС",
+      "universities-rating": "Рейтинг образовательных организаций",
+      "ooc-actualization": "Требуют актуализации",
+      "heatmap": "Распределение участников по регионам",
+      "programs-to-actualize": "Образовательные программы\n требующие актуализации",
+      "summary-info": "Сводная информация",
+      "consortium": "Консорциум",
+      "consortium-participants": "Список участников",
+      "opop-constructor": "Конструктор",
+      "main": "Главная",
+      "guest": "О проекте",
+      "administration": "Администрирование",
+      "users": "Пользователи",
+      "applications": "Заявки",
+      "roles": "Роли",
+      "verification-requests": "Заявки на подтверждение профиля",
+      "courses": "Курсы",
+      "my-staff": "Мои сотрудники",
+      "education-apps": "Заявки на обучение",
+      "training": "Обучение",
+      "actualization": "ОПОП и профстандарты",
+      "software-catalog": "Каталог ПО"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import '../../theme/core.less';
+
+.ooc-modal {
+    .ant-modal {
+        &-content {
+            padding: 32px;
+        }
+
+        &-header {
+            padding: 0 0 16px;
+        }
+
+        &-title {
+            font-family: @font-headers;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #3B4168;
+        }
+
+        &-body {
+            padding: 0;
+        }
+
+        &-footer {
+            margin-top: 24px;
+            padding: 24px 0 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .ooc-button-v2 {
+                padding: 12px 24px;
+
+                &.ant-btn-link {
+                    height: 44px;   // TODO: remove height 16 from ooc-btn-lnk
+                }
+            }
+        }
+    }
+}
+
+// prevent body width change
+// from opened ant modal
+body.ant-scrolling-effect {
+    width: 100% !important;
+}

@@ -1,0 +1,122 @@
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-page-sub-header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+}
+.ooc-page-sub-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #3B4168;
+}

@@ -1,0 +1,32 @@
+@import "../../theme/core.less";
+
+.nav-top {
+    z-index: 3;
+    max-height: @nav-height;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    & .ooc-logo {
+        width: 264px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        // override logo @media
+        & .ooc-logo {
+            height: 36px;
+        }
+    }
+
+    @media screen and (max-width: 756px) {
+        padding: 16px 20px 16px 0;
+
+        & .ooc-logo {
+            height: 24px;
+            padding-left: 0;
+        }
+    }
+}
