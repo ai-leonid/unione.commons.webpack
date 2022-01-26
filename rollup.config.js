@@ -1,8 +1,10 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
-import postcss from 'rollup-plugin-postcss';
+import url from '@rollup/plugin-url';
+import json from '@rollup/plugin-json';
 import less from 'rollup-plugin-less';
+import svgr from '@svgr/rollup';
 import dts from 'rollup-plugin-dts';
 
 
@@ -27,6 +29,9 @@ export default [
         plugins: [
             resolve(),
             commonjs(),
+            url(),
+            svgr(),
+            json(),
             typescript({ tsconfig: './tsconfig.json' }),
             less(),
         ],

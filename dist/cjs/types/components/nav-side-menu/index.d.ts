@@ -1,1 +1,0 @@
-export { NavSideMenu } from './component';

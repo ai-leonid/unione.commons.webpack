@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ButtonType } from 'antd/lib/button/button';
-import './style.less';
+import './Button.less';
 interface ButtonProperties {
     type: ButtonType | 'checkbox' | 'download';
     className?: string;
