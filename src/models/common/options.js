@@ -1,5 +1,5 @@
 const options = {
-    name: 'common'
+  name: 'common'
 };
 
 export default options;

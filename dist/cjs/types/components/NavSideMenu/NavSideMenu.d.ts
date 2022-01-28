@@ -1,7 +1,11 @@
-/// <reference types="react" />
+import { FC } from 'react';
 import './NavSideMenu.less';
-export declare const NavSideMenu: ({ isSignedIn, navItems }: {
-    isSignedIn: any;
-    navItems: any;
-}) => JSX.Element;
+interface Props {
+    navItems?: object[];
+    isAuth?: boolean;
+    isMobile?: boolean;
+    isSideMenuVisible?: boolean;
+    onSideMenuBtnClick?(): any;
+}
+export declare const NavSideMenu: FC<Props>;
 export default NavSideMenu;

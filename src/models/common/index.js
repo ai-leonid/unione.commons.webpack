@@ -5,10 +5,10 @@ import options from './options';
 
 
 const model = {
-    actions,
-    constants,
-    reducers,
-    options,
+  actions,
+  constants,
+  reducers,
+  options,
 };
 
 export default model;

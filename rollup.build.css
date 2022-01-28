@@ -28380,3 +28380,4783 @@
   height: fit-content !important;
   width: fit-content;
 }
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-top {
+  z-index: 3;
+  max-height: 72px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav-top .ooc-logo {
+  width: 264px;
+}
+@media screen and (min-width: 1920px) {
+  .nav-top .ooc-logo {
+    height: 36px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .nav-top {
+    padding: 16px 20px 16px 0;
+  }
+  .nav-top .ooc-logo {
+    height: 24px;
+    padding-left: 0;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-button-v2.ant-btn {
+  height: 44px;
+  border-radius: 4px;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ooc-button-v2.ant-btn:not(.ant-btn-block) {
+  max-width: 215px;
+}
+.ooc-button-v2.ant-btn .anticon {
+  line-height: 0;
+  font-size: 20px;
+}
+.ooc-button-v2.ant-btn-primary {
+  background: linear-gradient(94.25deg, #007BE0 -0.43%, #0058A0 54.69%);
+  border-color: #0071CE;
+  color: white;
+}
+.ooc-button-v2.ant-btn-primary:hover {
+  background: #0071CE;
+  transition: none;
+}
+.ooc-button-v2.ant-btn-ghost {
+  border-color: #0071CE;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn-link {
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn__download {
+  height: initial;
+  width: initial;
+  padding: initial;
+  border: initial;
+  background: initial;
+  font-size: 18px;
+}
+.ooc-button-v2.ant-btn__download:focus {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2.ant-btn__download:hover {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #12152A;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 2px;
+  border: 1px solid #E4E7F2;
+  background-color: white;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0071CE;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-side-menu {
+  height: 100%;
+  max-width: 300px;
+  min-width: 60px;
+  font-family: 'IBM Plex sans', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected {
+  position: relative;
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .menu-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #12152A;
+}
+.nav-side-menu .menu-footer .contact-list {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-side-menu .menu-footer .contact-list .list-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-side-menu .menu-footer .contact-list .list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item span {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #909EBB;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg {
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg path {
+  fill: #909EBB;
+}
+.nav-side-menu .menu-footer .ant-divider {
+  margin: 0;
+  padding: 0;
+  background-color: #909EBB;
+}
+.nav-side-menu .menu-footer .footer-toggle {
+  margin: 16px;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.22s all;
+}
+.nav-side-menu .menu-footer .footer-toggle.opened {
+  transition: 0.33s;
+  transform: rotate(180deg);
+}
+.nav-side-menu .ant-menu {
+  height: 100%;
+  user-select: none;
+  background: #12152A;
+}
+.nav-side-menu .ant-menu.opened > .ant-menu-item .item-link span {
+  display: none;
+}
+.nav-side-menu .ant-menu-root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link {
+  display: flex;
+  align-items: center;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg path {
+  fill: white;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected {
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+  position: relative;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  content: '';
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item {
+  margin: 8px 0;
+}
+.nav-side-menu .ant-menu-dark.ant-menu-root,
+.nav-side-menu .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #12152A;
+}
+.nav-side-menu .ant-menu-item,
+.nav-side-menu .ant-menu-item a,
+.nav-side-menu .ant-menu-item span a {
+  color: white;
+}
+.nav-side-menu .ant-menu-item:first-child {
+  margin: 24px 0;
+}
+.nav-side-menu .ant-menu-item > a {
+  flex: auto !important;
+  white-space: normal;
+  line-height: 20px;
+}
+.nav-side-menu .ant-menu-item-selected:not(.nav-side-menu__submenu-items--page-selected) {
+  background-color: unset !important;
+}
+.nav-side-menu .ant-menu-item-icon {
+  width: 20px;
+  height: fit-content;
+  fill: white;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.page-wrapper {
+  height: 100%;
+  background: #F5F6F8;
+}
+.page-wrapper__container {
+  height: calc(100% - 72px);
+  display: flex;
+  position: relative;
+}
+.page-wrapper__content {
+  width: 100%;
+  padding: 40px;
+  overflow: auto;
+  position: relative;
+  padding-left: calc(60px + 40px);
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper__content.nav-drawer-opened {
+  transition: all 0.3s, outline 0s;
+  padding-left: calc(256px + 40px);
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content.nav-drawer-opened {
+    padding-left: calc(256px + 16px);
+  }
+}
+.page-wrapper__content::-webkit-scrollbar {
+  width: 8px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb {
+  border-left: 4px solid #DAE4EE;
+  border-radius: 4px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb:hover {
+  border-left: 6px solid #DAE4EE;
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content {
+    padding: 16px 16px 16px calc(60px + 16px);
+  }
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content {
+    padding: 16px;
+  }
+}
+.page-wrapper .mobile-nav-drawer {
+  position: absolute;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer .ant-drawer-body {
+  padding: 0;
+}
+.page-wrapper .mobile-nav-drawer.small {
+  min-width: 60px !important;
+  width: 60px !important;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer.ant-drawer-open .ant-drawer-mask {
+  background: rgba(228, 231, 242, 0.4);
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content > div {
+    padding-left: 0px;
+    transition: all 0.3s, outline 0s;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-page-sub-header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+}
+.ooc-page-sub-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #3B4168;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-logo {
+  padding-left: 16px;
+  box-sizing: content-box;
+}
+.ooc-logo .anticon {
+  width: 100%;
+  height: 100%;
+}
+.ooc-logo .anticon svg {
+  width: inherit;
+  height: inherit;
+}
+@media screen and (max-width: 1366px) {
+  .ooc-logo {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+  .ooc-logo {
+    height: 49px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .ooc-logo {
+    height: 56px;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-profile {
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.nav-profile__items {
+  width: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-profile__items > img {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+.nav-profile__wrapper {
+  padding: 20px 32px 20px 24px;
+  border-left: 1px solid #E4E7F2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0071CE;
+}
+.nav-profile__user {
+  display: flex;
+  align-items: center;
+}
+.nav-profile__user-avatar {
+  position: relative;
+}
+.nav-profile__user-avatar img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.nav-profile__user-name {
+  margin: 0 24px;
+  white-space: nowrap;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.nav-profile__exit-button {
+  padding: 0;
+  border: 0 !important;
+  background-color: inherit;
+  height: fit-content !important;
+  width: fit-content;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-side-menu {
+  height: 100%;
+  max-width: 300px;
+  min-width: 60px;
+  font-family: 'IBM Plex sans', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected {
+  position: relative;
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .menu-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #12152A;
+}
+.nav-side-menu .menu-footer .contact-list {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-side-menu .menu-footer .contact-list .list-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-side-menu .menu-footer .contact-list .list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item span {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #909EBB;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg {
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg path {
+  fill: #909EBB;
+}
+.nav-side-menu .menu-footer .ant-divider {
+  margin: 0;
+  padding: 0;
+  background-color: #909EBB;
+}
+.nav-side-menu .menu-footer .footer-toggle {
+  margin: 16px;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.22s all;
+}
+.nav-side-menu .menu-footer .footer-toggle.opened {
+  transition: 0.33s;
+  transform: rotate(180deg);
+}
+.nav-side-menu .ant-menu {
+  height: 100%;
+  user-select: none;
+  background: #12152A;
+}
+.nav-side-menu .ant-menu.opened > .ant-menu-item .item-link span {
+  display: none;
+}
+.nav-side-menu .ant-menu-root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link {
+  display: flex;
+  align-items: center;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg path {
+  fill: white;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected {
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+  position: relative;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  content: '';
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item {
+  margin: 8px 0;
+}
+.nav-side-menu .ant-menu-dark.ant-menu-root,
+.nav-side-menu .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #12152A;
+}
+.nav-side-menu .ant-menu-item,
+.nav-side-menu .ant-menu-item a,
+.nav-side-menu .ant-menu-item span a {
+  color: white;
+}
+.nav-side-menu .ant-menu-item:first-child {
+  margin: 24px 0;
+}
+.nav-side-menu .ant-menu-item > a {
+  flex: auto !important;
+  white-space: normal;
+  line-height: 20px;
+}
+.nav-side-menu .ant-menu-item-selected:not(.nav-side-menu__submenu-items--page-selected) {
+  background-color: unset !important;
+}
+.nav-side-menu .ant-menu-item-icon {
+  width: 20px;
+  height: fit-content;
+  fill: white;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-page-sub-header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+}
+.ooc-page-sub-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #3B4168;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-top {
+  z-index: 3;
+  max-height: 72px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav-top .ooc-logo {
+  width: 264px;
+}
+@media screen and (min-width: 1920px) {
+  .nav-top .ooc-logo {
+    height: 36px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .nav-top {
+    padding: 16px 20px 16px 0;
+  }
+  .nav-top .ooc-logo {
+    height: 24px;
+    padding-left: 0;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.page-wrapper {
+  height: 100%;
+  background: #F5F6F8;
+}
+.page-wrapper__container {
+  height: calc(100% - 72px);
+  display: flex;
+  position: relative;
+}
+.page-wrapper__content {
+  width: 100%;
+  padding: 40px;
+  overflow: auto;
+  position: relative;
+  padding-left: calc(60px + 40px);
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper__content.nav-drawer-opened {
+  transition: all 0.3s, outline 0s;
+  padding-left: calc(256px + 40px);
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content.nav-drawer-opened {
+    padding-left: calc(256px + 16px);
+  }
+}
+.page-wrapper__content::-webkit-scrollbar {
+  width: 8px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb {
+  border-left: 4px solid #DAE4EE;
+  border-radius: 4px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb:hover {
+  border-left: 6px solid #DAE4EE;
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content {
+    padding: 16px 16px 16px calc(60px + 16px);
+  }
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content {
+    padding: 16px;
+  }
+}
+.page-wrapper .mobile-nav-drawer {
+  position: absolute;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer .ant-drawer-body {
+  padding: 0;
+}
+.page-wrapper .mobile-nav-drawer.small {
+  min-width: 60px !important;
+  width: 60px !important;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer.ant-drawer-open .ant-drawer-mask {
+  background: rgba(228, 231, 242, 0.4);
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content > div {
+    padding-left: 0px;
+    transition: all 0.3s, outline 0s;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-button-v2.ant-btn {
+  height: 44px;
+  border-radius: 4px;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ooc-button-v2.ant-btn:not(.ant-btn-block) {
+  max-width: 215px;
+}
+.ooc-button-v2.ant-btn .anticon {
+  line-height: 0;
+  font-size: 20px;
+}
+.ooc-button-v2.ant-btn-primary {
+  background: linear-gradient(94.25deg, #007BE0 -0.43%, #0058A0 54.69%);
+  border-color: #0071CE;
+  color: white;
+}
+.ooc-button-v2.ant-btn-primary:hover {
+  background: #0071CE;
+  transition: none;
+}
+.ooc-button-v2.ant-btn-ghost {
+  border-color: #0071CE;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn-link {
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn__download {
+  height: initial;
+  width: initial;
+  padding: initial;
+  border: initial;
+  background: initial;
+  font-size: 18px;
+}
+.ooc-button-v2.ant-btn__download:focus {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2.ant-btn__download:hover {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #12152A;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 2px;
+  border: 1px solid #E4E7F2;
+  background-color: white;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0071CE;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-profile {
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.nav-profile__items {
+  width: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-profile__items > img {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+.nav-profile__wrapper {
+  padding: 20px 32px 20px 24px;
+  border-left: 1px solid #E4E7F2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0071CE;
+}
+.nav-profile__user {
+  display: flex;
+  align-items: center;
+}
+.nav-profile__user-avatar {
+  position: relative;
+}
+.nav-profile__user-avatar img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.nav-profile__user-name {
+  margin: 0 24px;
+  white-space: nowrap;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.nav-profile__exit-button {
+  padding: 0;
+  border: 0 !important;
+  background-color: inherit;
+  height: fit-content !important;
+  width: fit-content;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-logo {
+  padding-left: 16px;
+  box-sizing: content-box;
+}
+.ooc-logo .anticon {
+  width: 100%;
+  height: 100%;
+}
+.ooc-logo .anticon svg {
+  width: inherit;
+  height: inherit;
+}
+@media screen and (max-width: 1366px) {
+  .ooc-logo {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+  .ooc-logo {
+    height: 49px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .ooc-logo {
+    height: 56px;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-side-menu {
+  height: 100%;
+  max-width: 300px;
+  min-width: 60px;
+  font-family: 'IBM Plex sans', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected {
+  position: relative;
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .menu-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #12152A;
+}
+.nav-side-menu .menu-footer .contact-list {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-side-menu .menu-footer .contact-list .list-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-side-menu .menu-footer .contact-list .list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item span {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #909EBB;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg {
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg path {
+  fill: #909EBB;
+}
+.nav-side-menu .menu-footer .ant-divider {
+  margin: 0;
+  padding: 0;
+  background-color: #909EBB;
+}
+.nav-side-menu .menu-footer .footer-toggle {
+  margin: 16px;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.22s all;
+}
+.nav-side-menu .menu-footer .footer-toggle.opened {
+  transition: 0.33s;
+  transform: rotate(180deg);
+}
+.nav-side-menu .ant-menu {
+  height: 100%;
+  user-select: none;
+  background: #12152A;
+}
+.nav-side-menu .ant-menu.opened > .ant-menu-item .item-link span {
+  display: none;
+}
+.nav-side-menu .ant-menu-root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link {
+  display: flex;
+  align-items: center;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg path {
+  fill: white;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected {
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+  position: relative;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  content: '';
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item {
+  margin: 8px 0;
+}
+.nav-side-menu .ant-menu-dark.ant-menu-root,
+.nav-side-menu .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #12152A;
+}
+.nav-side-menu .ant-menu-item,
+.nav-side-menu .ant-menu-item a,
+.nav-side-menu .ant-menu-item span a {
+  color: white;
+}
+.nav-side-menu .ant-menu-item:first-child {
+  margin: 24px 0;
+}
+.nav-side-menu .ant-menu-item > a {
+  flex: auto !important;
+  white-space: normal;
+  line-height: 20px;
+}
+.nav-side-menu .ant-menu-item-selected:not(.nav-side-menu__submenu-items--page-selected) {
+  background-color: unset !important;
+}
+.nav-side-menu .ant-menu-item-icon {
+  width: 20px;
+  height: fit-content;
+  fill: white;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-top {
+  z-index: 3;
+  max-height: 72px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav-top .ooc-logo {
+  width: 264px;
+}
+@media screen and (min-width: 1920px) {
+  .nav-top .ooc-logo {
+    height: 36px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .nav-top {
+    padding: 16px 20px 16px 0;
+  }
+  .nav-top .ooc-logo {
+    height: 24px;
+    padding-left: 0;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-page-sub-header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+}
+.ooc-page-sub-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #3B4168;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.page-wrapper {
+  height: 100%;
+  background: #F5F6F8;
+}
+.page-wrapper__container {
+  height: calc(100% - 72px);
+  display: flex;
+  position: relative;
+}
+.page-wrapper__content {
+  width: 100%;
+  padding: 40px;
+  overflow: auto;
+  position: relative;
+  padding-left: calc(60px + 40px);
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper__content.nav-drawer-opened {
+  transition: all 0.3s, outline 0s;
+  padding-left: calc(256px + 40px);
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content.nav-drawer-opened {
+    padding-left: calc(256px + 16px);
+  }
+}
+.page-wrapper__content::-webkit-scrollbar {
+  width: 8px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb {
+  border-left: 4px solid #DAE4EE;
+  border-radius: 4px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb:hover {
+  border-left: 6px solid #DAE4EE;
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content {
+    padding: 16px 16px 16px calc(60px + 16px);
+  }
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content {
+    padding: 16px;
+  }
+}
+.page-wrapper .mobile-nav-drawer {
+  position: absolute;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer .ant-drawer-body {
+  padding: 0;
+}
+.page-wrapper .mobile-nav-drawer.small {
+  min-width: 60px !important;
+  width: 60px !important;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer.ant-drawer-open .ant-drawer-mask {
+  background: rgba(228, 231, 242, 0.4);
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content > div {
+    padding-left: 0px;
+    transition: all 0.3s, outline 0s;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-button-v2.ant-btn {
+  height: 44px;
+  border-radius: 4px;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ooc-button-v2.ant-btn:not(.ant-btn-block) {
+  max-width: 215px;
+}
+.ooc-button-v2.ant-btn .anticon {
+  line-height: 0;
+  font-size: 20px;
+}
+.ooc-button-v2.ant-btn-primary {
+  background: linear-gradient(94.25deg, #007BE0 -0.43%, #0058A0 54.69%);
+  border-color: #0071CE;
+  color: white;
+}
+.ooc-button-v2.ant-btn-primary:hover {
+  background: #0071CE;
+  transition: none;
+}
+.ooc-button-v2.ant-btn-ghost {
+  border-color: #0071CE;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn-link {
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn__download {
+  height: initial;
+  width: initial;
+  padding: initial;
+  border: initial;
+  background: initial;
+  font-size: 18px;
+}
+.ooc-button-v2.ant-btn__download:focus {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2.ant-btn__download:hover {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #12152A;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 2px;
+  border: 1px solid #E4E7F2;
+  background-color: white;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0071CE;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-logo {
+  padding-left: 16px;
+  box-sizing: content-box;
+}
+.ooc-logo .anticon {
+  width: 100%;
+  height: 100%;
+}
+.ooc-logo .anticon svg {
+  width: inherit;
+  height: inherit;
+}
+@media screen and (max-width: 1366px) {
+  .ooc-logo {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+  .ooc-logo {
+    height: 49px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .ooc-logo {
+    height: 56px;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-profile {
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.nav-profile__items {
+  width: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-profile__items > img {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+.nav-profile__wrapper {
+  padding: 20px 32px 20px 24px;
+  border-left: 1px solid #E4E7F2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0071CE;
+}
+.nav-profile__user {
+  display: flex;
+  align-items: center;
+}
+.nav-profile__user-avatar {
+  position: relative;
+}
+.nav-profile__user-avatar img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.nav-profile__user-name {
+  margin: 0 24px;
+  white-space: nowrap;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.nav-profile__exit-button {
+  padding: 0;
+  border: 0 !important;
+  background-color: inherit;
+  height: fit-content !important;
+  width: fit-content;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-side-menu {
+  height: 100%;
+  max-width: 300px;
+  min-width: 60px;
+  font-family: 'IBM Plex sans', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected {
+  position: relative;
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .menu-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #12152A;
+}
+.nav-side-menu .menu-footer .contact-list {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-side-menu .menu-footer .contact-list .list-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-side-menu .menu-footer .contact-list .list-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item span {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #909EBB;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg {
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.nav-side-menu .menu-footer .contact-list .list-item svg path {
+  fill: #909EBB;
+}
+.nav-side-menu .menu-footer .ant-divider {
+  margin: 0;
+  padding: 0;
+  background-color: #909EBB;
+}
+.nav-side-menu .menu-footer .footer-toggle {
+  margin: 16px;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.22s all;
+}
+.nav-side-menu .menu-footer .footer-toggle.opened {
+  transition: 0.33s;
+  transform: rotate(180deg);
+}
+.nav-side-menu .ant-menu {
+  height: 100%;
+  user-select: none;
+  background: #12152A;
+}
+.nav-side-menu .ant-menu.opened > .ant-menu-item .item-link span {
+  display: none;
+}
+.nav-side-menu .ant-menu-root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link {
+  display: flex;
+  align-items: center;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item .item-link svg path {
+  fill: white;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected {
+  background: linear-gradient(90deg, #0071CE 0%, rgba(0, 113, 206, 0.46) 100%);
+  position: relative;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-item.page-selected:after {
+  clip-path: polygon(100% 0, 6px 50%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  content: "";
+  background: white;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  content: '';
+  z-index: 3;
+  opacity: 1;
+  transform: none;
+}
+.nav-side-menu .ant-menu-root > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}
+.nav-side-menu .ant-menu-root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.nav-side-menu .ant-menu-root .ant-menu-submenu > .ant-menu > .ant-menu-item {
+  margin: 8px 0;
+}
+.nav-side-menu .ant-menu-dark.ant-menu-root,
+.nav-side-menu .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #12152A;
+}
+.nav-side-menu .ant-menu-item,
+.nav-side-menu .ant-menu-item a,
+.nav-side-menu .ant-menu-item span a {
+  color: white;
+}
+.nav-side-menu .ant-menu-item:first-child {
+  margin: 24px 0;
+}
+.nav-side-menu .ant-menu-item > a {
+  flex: auto !important;
+  white-space: normal;
+  line-height: 20px;
+}
+.nav-side-menu .ant-menu-item-selected:not(.nav-side-menu__submenu-items--page-selected) {
+  background-color: unset !important;
+}
+.nav-side-menu .ant-menu-item-icon {
+  width: 20px;
+  height: fit-content;
+  fill: white;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-top {
+  z-index: 3;
+  max-height: 72px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.nav-top .ooc-logo {
+  width: 264px;
+}
+@media screen and (min-width: 1920px) {
+  .nav-top .ooc-logo {
+    height: 36px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .nav-top {
+    padding: 16px 20px 16px 0;
+  }
+  .nav-top .ooc-logo {
+    height: 24px;
+    padding-left: 0;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.page-wrapper {
+  height: 100%;
+  background: #F5F6F8;
+}
+.page-wrapper__container {
+  height: calc(100% - 72px);
+  display: flex;
+  position: relative;
+}
+.page-wrapper__content {
+  width: 100%;
+  padding: 40px;
+  overflow: auto;
+  position: relative;
+  padding-left: calc(60px + 40px);
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper__content.nav-drawer-opened {
+  transition: all 0.3s, outline 0s;
+  padding-left: calc(256px + 40px);
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content.nav-drawer-opened {
+    padding-left: calc(256px + 16px);
+  }
+}
+.page-wrapper__content::-webkit-scrollbar {
+  width: 8px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb {
+  border-left: 4px solid #DAE4EE;
+  border-radius: 4px;
+}
+.page-wrapper__content::-webkit-scrollbar-thumb:hover {
+  border-left: 6px solid #DAE4EE;
+}
+@media screen and (max-width: 1366px) {
+  .page-wrapper__content {
+    padding: 16px 16px 16px calc(60px + 16px);
+  }
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content {
+    padding: 16px;
+  }
+}
+.page-wrapper .mobile-nav-drawer {
+  position: absolute;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer .ant-drawer-body {
+  padding: 0;
+}
+.page-wrapper .mobile-nav-drawer.small {
+  min-width: 60px !important;
+  width: 60px !important;
+  transition: all 0.3s, outline 0s;
+}
+.page-wrapper .mobile-nav-drawer.ant-drawer-open .ant-drawer-mask {
+  background: rgba(228, 231, 242, 0.4);
+  backdrop-filter: blur(10px);
+}
+@media screen and (max-width: 756px) {
+  .page-wrapper__content > div {
+    padding-left: 0px;
+    transition: all 0.3s, outline 0s;
+  }
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-page-sub-header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+}
+.ooc-page-sub-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #3B4168;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-button-v2.ant-btn {
+  height: 44px;
+  border-radius: 4px;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ooc-button-v2.ant-btn:not(.ant-btn-block) {
+  max-width: 215px;
+}
+.ooc-button-v2.ant-btn .anticon {
+  line-height: 0;
+  font-size: 20px;
+}
+.ooc-button-v2.ant-btn-primary {
+  background: linear-gradient(94.25deg, #007BE0 -0.43%, #0058A0 54.69%);
+  border-color: #0071CE;
+  color: white;
+}
+.ooc-button-v2.ant-btn-primary:hover {
+  background: #0071CE;
+  transition: none;
+}
+.ooc-button-v2.ant-btn-ghost {
+  border-color: #0071CE;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn-link {
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+  color: #0071CE;
+}
+.ooc-button-v2.ant-btn__download {
+  height: initial;
+  width: initial;
+  padding: initial;
+  border: initial;
+  background: initial;
+  font-size: 18px;
+}
+.ooc-button-v2.ant-btn__download:focus {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2.ant-btn__download:hover {
+  color: #333;
+  background: #F5F6F8;
+  border-color: #F5F6F8;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #12152A;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 2px;
+  border: 1px solid #E4E7F2;
+  background-color: white;
+}
+.ooc-button-v2--checkbox.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0071CE;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.nav-profile {
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.nav-profile__items {
+  width: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-profile__items > img {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+.nav-profile__wrapper {
+  padding: 20px 32px 20px 24px;
+  border-left: 1px solid #E4E7F2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0071CE;
+}
+.nav-profile__user {
+  display: flex;
+  align-items: center;
+}
+.nav-profile__user-avatar {
+  position: relative;
+}
+.nav-profile__user-avatar img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.nav-profile__user-name {
+  margin: 0 24px;
+  white-space: nowrap;
+  font-family: 'IBM Plex sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.nav-profile__exit-button {
+  padding: 0;
+  border: 0 !important;
+  background-color: inherit;
+  height: fit-content !important;
+  width: fit-content;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+}
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+.h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.buttons {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 500;
+  /* medium */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.caption {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.helptext {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  /* regular */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.small {
+  font-family: 'IBM Plex sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.mobile-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* bold */
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mobile-h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* semi-bold */
+  font-style: normal;
+  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.mobile-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ooc-logo {
+  padding-left: 16px;
+  box-sizing: content-box;
+}
+.ooc-logo .anticon {
+  width: 100%;
+  height: 100%;
+}
+.ooc-logo .anticon svg {
+  width: inherit;
+  height: inherit;
+}
+@media screen and (max-width: 1366px) {
+  .ooc-logo {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+  .ooc-logo {
+    height: 49px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .ooc-logo {
+    height: 56px;
+  }
+}

@@ -8,23 +8,23 @@ import alert from './middleware/alerts';
 
 
 const composeEnhancers = (
-    typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__)
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
-    : compose;
+  typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__)
+  ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
+  : compose;
 
 const sagaMiddleware = createSagaMiddleware();
 
 const sagaConnect = (...sagas) => {
-    sagas.forEach((item) => sagaMiddleware.run(item));
+  sagas.forEach((item) => sagaMiddleware.run(item));
 };
 
 const tools = [thunk, alert, sagaMiddleware];
 
 if (process.env.NODE_ENV === 'development') {
-    // eslint-disable-next-line global-require
-    const { logger } = require('redux-logger');
+  // eslint-disable-next-line global-require
+  const { logger } = require('redux-logger');
 
-    tools.push(logger);
+  tools.push(logger);
 }
 
 

@@ -6,13 +6,13 @@ import './style.less';
 
 
 const OOCMain = () => {
-    const b = bem('ooc-main-page');
+  const b = bem('ooc-main-page');
 
-    return (
-        <div className={b()}>
-            main test
-        </div>
-    );
+  return (
+    <div className={b()}>
+      main test
+    </div>
+  );
 };
 
 export default OOCMain;

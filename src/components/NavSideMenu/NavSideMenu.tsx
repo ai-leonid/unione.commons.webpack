@@ -1,11 +1,9 @@
 // @ts-nocheck
-import React, { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import React, { useState, FC } from 'react';
 import { Divider, Drawer, Menu } from 'antd';
 import bem from 'easy-bem';
 // import { useLocation, useHistory } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
-import { useMedia } from 'react-use';
 
 import { ReactComponent as HomeIcon } from '../../assets/icons/nav/nav-home.svg';
 import { ReactComponent as EducationIcon } from '../../assets/icons/nav/nav-education.svg';
@@ -19,10 +17,7 @@ import { ReactComponent as ArrowIcon } from '../../assets/icons/nav/nav-arrow.sv
 // import { ReactComponent as AdminLockIcon } from '../../assets/icons/nav/nav-admin-lock.svg';
 import { ReactComponent as ComputerIcon } from '../../assets/icons/nav/nav-computer.svg';
 
-
-import { setDrawerVisible, setIsMobile } from '../../models/common/actions';
-import Button from '../Button-v2';
-import { useSelector } from '../../store/use-selector';
+import Button from '../Button';
 
 import { NavSubMenu } from './components/NavSubMenu';
 import { NavItem } from './components/NavItem';
@@ -45,20 +40,31 @@ const iconsMap = {
 
 const getIcon = (icon) => { const Icon = iconsMap[icon]; return <Icon />; };
 
-export const NavSideMenu = ({ isSignedIn, navItems }) => {
+interface Props {
+  navItems?: object[]
+  isAuth?: boolean
+  isMobile?: boolean
+  isSideMenuVisible?: boolean
+  onSideMenuBtnClick?(): any
+}
+
+export const NavSideMenu: FC<Props> = ({
+  navItems,
+  isAuth,
+  isMobile,
+  isSideMenuVisible,
+  onSideMenuBtnClick
+}) => {
   const b = bem('nav-side-menu');
 
   // const location = useLocation();
-  const dispatch = useDispatch();
   const history = useHistory();
-    
-  const drawerVisible = useSelector((state) => state.common.drawerVisible);
-  const isMobile = useSelector((state) => state.common.isMobile);
 
-  const isMobileQuery = useMedia('(max-width: 756px)');
-
-  // @ts-ignore
-  useEffect(() => dispatch(setIsMobile(isMobileQuery)), [isMobileQuery, dispatch]);
+  const onSideMenuBtnHandler = (state) => {
+    if (onSideMenuBtnClick) {
+      onSideMenuBtnClick(state);
+    }
+  };
 
   const buildMenu = (items) => items.map((item) => {
     if (item.children && item.children.length > 0) {
@@ -68,6 +74,7 @@ export const NavSideMenu = ({ isSignedIn, navItems }) => {
           title={item.translateKey || item.title}
           icon={item.icon && getIcon(item.icon)}
           shouldRender={checkAuthState(item.renderConditionString)}
+          isSideMenuVisible={isSideMenuVisible}
           onTitleClick={() => history.push(`/${item.route}`)}
         >
           { buildMenu(item.children) }
@@ -87,43 +94,36 @@ export const NavSideMenu = ({ isSignedIn, navItems }) => {
   });
 
   const checkAuthState = (condition: string) => {
-    const isAuthorized = condition === 'signedIn' && isSignedIn;
-    const isUnauthorized = condition === 'signedOut' && !isSignedIn;
+    const isAuthorized = condition === 'signedIn' && isAuth;
+    const isUnauthorized = condition === 'signedOut' && !isAuth;
 
     return isAuthorized || isUnauthorized || !condition;
   };
    
   const [selectedKeys] = useState([]);
-    
-  useEffect(() => {
-    if (isMobile) {
-      dispatch(setDrawerVisible(!isMobile));
-    }
-  }, [isMobile, dispatch]);
 
   return (
     <Drawer
-      className={`mobile-nav-drawer ${!drawerVisible ? 'small' : ''}`}
+      className={`mobile-nav-drawer ${!isSideMenuVisible ? 'small' : ''}`}
       placement="left"
       mask={isMobile}
       closable={false}
-      visible={!isMobile || drawerVisible}
-      onClose={() => dispatch(setDrawerVisible(false))}
+      visible={!isMobile || isSideMenuVisible}
+      onClose={() => onSideMenuBtnHandler(false)}
       getContainer={false}
     >
       <div className={b()}>
         <Menu
-          className={!drawerVisible ? 'opened' : ''}
+          className={!isSideMenuVisible ? 'opened' : ''}
           mode="inline"
           theme="dark"
           expandIcon={() => null}
           selectedKeys={selectedKeys}
         >
-
           { buildMenu(navItems) }
         </Menu>
         <div className="menu-footer">
-          {drawerVisible && (
+          {isSideMenuVisible && (
             <div className="contact-list">
               <Button type="link" href="tel:+78005503171" icon={<PhoneIcon />} className="list-item">
                 <span>+7 (800) 550-31-71</span>
@@ -134,7 +134,7 @@ export const NavSideMenu = ({ isSignedIn, navItems }) => {
                 href="mailto:ooc@innopolis.ru"
                 icon={<EmailIcon />}
               >
-                <span>ooc@innopolis.ru </span>
+                <span>ooc@innopolis.ru</span>
               </Button>
               <div className="list-item">
                 <LocationIcon />
@@ -147,8 +147,8 @@ export const NavSideMenu = ({ isSignedIn, navItems }) => {
           )}
           <Divider />
           <ArrowIcon
-            className={`footer-toggle ${!drawerVisible ? 'opened' : ''}`}
-            onClick={() => dispatch(setDrawerVisible(!drawerVisible))}
+            className={`footer-toggle ${!isSideMenuVisible ? 'opened' : ''}`}
+            onClick={() => onSideMenuBtnHandler(!isSideMenuVisible)}
           />
         </div>
       </div>

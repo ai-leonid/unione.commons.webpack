@@ -5,8 +5,8 @@ import Page from './component';
 
 
 export default <Route
-    exact
-    key="main"
-    path={['/', '/home', '/main', '/index.html']}
-    component={Page}
+  exact
+  key="main"
+  path={['/', '/home', '/main', '/index.html']}
+  component={Page}
 />;

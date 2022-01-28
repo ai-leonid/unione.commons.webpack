@@ -1,7 +1,13 @@
-/// <reference types="react" />
+import React, { ReactNode } from 'react';
+import { ButtonType } from 'antd/lib/button/button';
 import './Button.less';
-export interface ButtonProps {
-    label: string;
+interface ButtonProperties {
+    type: ButtonType | 'checkbox' | 'download';
+    className?: string;
+    imgUrl?: string;
+    href?: string;
+    icon?: ReactNode;
+    onClick: () => void;
 }
-declare const Button: (props: ButtonProps) => JSX.Element;
+declare const Button: React.FC<ButtonProperties>;
 export default Button;

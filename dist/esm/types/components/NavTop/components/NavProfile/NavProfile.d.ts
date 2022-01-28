@@ -8,10 +8,10 @@ declare global {
 interface Props {
     photoUrl?: string;
     userName?: string;
-    isAuth?: boolean;
     userId?: string;
-    onLogout(): any;
-    onLogin(): any;
+    isAuth?: boolean;
+    onLogout?(): any;
+    onLogin?(): any;
 }
 declare const NavProfile: FC<Props>;
 export default NavProfile;

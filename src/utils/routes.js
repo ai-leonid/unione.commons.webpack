@@ -5,7 +5,7 @@ import * as Pages from '../pages';
 
 
 export default (
-    <Switch>
-        { Object.values(Pages) }
-    </Switch>
+  <Switch>
+    { Object.values(Pages) }
+  </Switch>
 );

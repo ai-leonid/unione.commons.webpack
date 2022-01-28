@@ -1,42 +1,35 @@
 /// <reference types="react" />
 import * as react from 'react';
-import react__default, { FC, ReactNode } from 'react';
-import { ButtonType } from 'antd/lib/button/button';
+import { FC } from 'react';
 import * as react_router from 'react-router';
 
-interface Props {
+interface Props$1 {
     photoUrl?: string;
     userName?: string;
+    userId?: string;
     isAuth?: boolean;
-    userId: string;
-    isMobile: string;
-    onLogoutClick(): any;
-    onLoginClick(): any;
-    onMobileBurgerClick(): any;
+    isMobile?: boolean;
+    onLogoutClick?(): any;
+    onLoginClick?(): any;
+    onMobileBurgerClick?(): any;
 }
-declare const NavTop: FC<Props>;
+declare const NavTop: FC<Props$1>;
 
-interface ButtonProperties {
-    type: ButtonType | 'checkbox' | 'download';
-    className?: string;
-    imgUrl?: string;
-    href?: string;
-    icon?: ReactNode;
-    onClick: () => void;
+interface Props {
+    navItems?: object[];
+    isAuth?: boolean;
+    isMobile?: boolean;
+    isSideMenuVisible?: boolean;
+    onSideMenuBtnClick?(): any;
 }
-declare const Button: react__default.FC<ButtonProperties>;
-
-declare const NavSideMenu: ({ isSignedIn, navItems }: {
-    isSignedIn: any;
-    navItems: any;
-}) => JSX.Element;
-
-declare const PageWrapper: ({ ...rest }: {
-    [x: string]: any;
-}) => JSX.Element;
+declare const NavSideMenu: FC<Props>;
 
 declare const _default: react.ComponentClass<Pick<react_router.RouteComponentProps<any, react_router.StaticContext, unknown>, never>, any> & react_router.WithRouterStatics<react.ComponentType<react_router.RouteComponentProps<any, react_router.StaticContext, unknown>>>;
 
 declare const PageSubHeader: (props: any) => JSX.Element;
 
-export { Button, NavSideMenu, NavTop, PageSubHeader, PageWrapper, _default as ScrollToTop };
+declare const PageWrapper: ({ ...rest }: {
+    [x: string]: any;
+}) => JSX.Element;
+
+export { NavSideMenu, NavTop, PageSubHeader, PageWrapper, _default as ScrollToTop };

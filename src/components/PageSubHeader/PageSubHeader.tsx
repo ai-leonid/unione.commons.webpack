@@ -6,19 +6,19 @@ import './PageSubHeader.less';
 
 
 const PageSubHeader = (props) => {
-    const b = bem('ooc-page-sub-header');
+  const b = bem('ooc-page-sub-header');
 
-    const {
-        title,
-    } = props;
+  const {
+    title,
+  } = props;
 
-    return (
-        <div className={b()}>
-            <div className={b('title')}>
-                { title }
-            </div>
-        </div>
-    );
+  return (
+    <div className={b()}>
+      <div className={b('title')}>
+        { title }
+      </div>
+    </div>
+  );
 };
 
 export default PageSubHeader;

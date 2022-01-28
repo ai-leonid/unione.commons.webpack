@@ -1,4 +1,4 @@
 /// <reference types="react" />
 import './Logo.less';
-declare const OOCLogo: () => JSX.Element;
-export default OOCLogo;
+declare const Logo: () => JSX.Element;
+export default Logo;

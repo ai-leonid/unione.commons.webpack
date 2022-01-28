@@ -3,5 +3,5 @@ import { State } from './types';
 
 
 export const useSelector:TypedUseSelectorHook<State> = (
-    selector
+  selector
 ) => useSelectorReactRedux(selector);

@@ -9,27 +9,26 @@ import { ReactComponent as BurgerIcon } from '../../assets/icons/burger.svg';
 
 import './NavTop.less';
 
-
 interface Props {
-    photoUrl?: string
-    userName?: string
-    isAuth?: boolean
-    userId: string
-    isMobile: string
-    onLogoutClick(): any
-    onLoginClick(): any
-    onMobileBurgerClick(): any
+  photoUrl?: string
+  userName?: string
+  userId?: string
+  isAuth?: boolean
+  isMobile?: boolean
+  onLogoutClick?(): any
+  onLoginClick?(): any
+  onMobileBurgerClick?(): any
 }
 
 const NavTop: FC<Props> = ({
   photoUrl,
   userName,
-  isAuth,
   userId,
+  isAuth = false,
+  isMobile = false,
   onLogoutClick,
   onLoginClick,
   onMobileBurgerClick,
-  isMobile,
 }) => {
   const b = bem('nav-top');
 
@@ -42,8 +41,8 @@ const NavTop: FC<Props> = ({
         <NavProfile
           photoUrl={photoUrl}
           userName={userName}
-          isAuth={isAuth}
           userId={userId}
+          isAuth={isAuth}
           onLogout={onLogoutClick}
           onLogin={onLoginClick}
         />

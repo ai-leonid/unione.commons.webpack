@@ -8,45 +8,45 @@ import EyeIcon from '../../../../assets/icons/eye.svg';
 import UserAvatarIcon from '../../../../assets/icons/user-avatar.svg';
 import UserLogoutIcon from '../../../../assets/icons/user-logout.svg';
 
-import Button from '../../../Button-v2';
+import Button from '../../../Button';
 
 import './NavProfile.less';
 
 
 declare global {
-    interface Window {
-        dataLayer: any;
-    }
+  interface Window {
+      dataLayer: any;
+  }
 }
 
 interface Props {
-    photoUrl?: string
-    userName?: string
-    isAuth?: boolean
-    userId?: string
-    onLogout(): any,
-    onLogin(): any,
+  photoUrl?: string
+  userName?: string
+  userId?: string
+  isAuth?: boolean
+  onLogout?(): any,
+  onLogin?(): any,
 }
 
 const NavProfile: FC<Props> = ({
   photoUrl,
   userName,
-  isAuth = false,
   userId,
+  isAuth = false,
   onLogout,
   onLogin
 }) => {
   const b = bem('nav-profile');
 
-  const onLogoutHandler = () => {
+  const onLogoutHandler = (e) => {
     if (onLogout) {
-      onLogout();
+      onLogout(e);
     }
   };
 
-  const onLoginHandler = () => {
+  const onLoginHandler = (e) => {
     if (onLogin) {
-      onLogin();
+      onLogin(e);
     }
   };
 
@@ -85,7 +85,7 @@ const NavProfile: FC<Props> = ({
                 )}
               </div>
               <div className={b('user-name')}>
-                {userName}
+                {userName || ''}
               </div>
             </a>
             <Button
