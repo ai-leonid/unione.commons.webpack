@@ -21,7 +21,7 @@ import { ReactComponent as ComputerIcon } from '../../assets/icons/nav/nav-compu
 
 
 import { setDrawerVisible, setIsMobile } from '../../models/common/actions';
-import { Button } from '../../components';
+import Button from '../Button-v2';
 import { useSelector } from '../../store/use-selector';
 
 import { NavSubMenu } from './components/NavSubMenu';
@@ -31,130 +31,130 @@ import './NavSideMenu.less';
 
 
 const iconsMap = {
-    HomeIcon,
-    EducationIcon,
-    MonitoringIcon,
-    UsersIcon,
-    AboutIcon,
-    PhoneIcon,
-    LocationIcon,
-    EmailIcon,
-    ArrowIcon,
-    ComputerIcon
+  HomeIcon,
+  EducationIcon,
+  MonitoringIcon,
+  UsersIcon,
+  AboutIcon,
+  PhoneIcon,
+  LocationIcon,
+  EmailIcon,
+  ArrowIcon,
+  ComputerIcon
 };
 
 const getIcon = (icon) => { const Icon = iconsMap[icon]; return <Icon />; };
 
 export const NavSideMenu = ({ isSignedIn, navItems }) => {
-    const b = bem('nav-side-menu');
+  const b = bem('nav-side-menu');
 
-    // const location = useLocation();
-    const dispatch = useDispatch();
-    const history = useHistory();
+  // const location = useLocation();
+  const dispatch = useDispatch();
+  const history = useHistory();
     
-    const drawerVisible = useSelector((state) => state.common.drawerVisible);
-    const isMobile = useSelector((state) => state.common.isMobile);
+  const drawerVisible = useSelector((state) => state.common.drawerVisible);
+  const isMobile = useSelector((state) => state.common.isMobile);
 
-    const isMobileQuery = useMedia('(max-width: 756px)');
+  const isMobileQuery = useMedia('(max-width: 756px)');
 
-    // @ts-ignore
-    useEffect(() => dispatch(setIsMobile(isMobileQuery)), [isMobileQuery, dispatch]);
+  // @ts-ignore
+  useEffect(() => dispatch(setIsMobile(isMobileQuery)), [isMobileQuery, dispatch]);
 
-    const buildMenu = (items) => items.map((item) => {
-        if (item.children && item.children.length > 0) {
-            return (
-                <NavSubMenu
-                    key={item.id}
-                    title={item.translateKey || item.title}
-                    icon={item.icon && getIcon(item.icon)}
-                    shouldRender={checkAuthState(item.renderConditionString)}
-                    onTitleClick={() => history.push(`/${item.route}`)}
-                >
-                    { buildMenu(item.children) }
-                </NavSubMenu>
-            );
-        }
-
-        return (
-            <NavItem
-                key={item.id}
-                route={item.route}
-                label={item.translateKey || item.title}
-                icon={item.icon && getIcon(item.icon)}
-                shouldRender={checkAuthState(item.renderConditionString)}
-            />
-        );
-    });
-
-    const checkAuthState = (condition: string) => {
-        const isAuthorized = condition === 'signedIn' && isSignedIn;
-        const isUnauthorized = condition === 'signedOut' && !isSignedIn;
-
-        return isAuthorized || isUnauthorized || !condition;
-    };
-   
-    const [selectedKeys] = useState([]);
-    
-    useEffect(() => {
-        if (isMobile) {
-            dispatch(setDrawerVisible(!isMobile));
-        }
-    }, [isMobile, dispatch]);
+  const buildMenu = (items) => items.map((item) => {
+    if (item.children && item.children.length > 0) {
+      return (
+        <NavSubMenu
+          key={item.id}
+          title={item.translateKey || item.title}
+          icon={item.icon && getIcon(item.icon)}
+          shouldRender={checkAuthState(item.renderConditionString)}
+          onTitleClick={() => history.push(`/${item.route}`)}
+        >
+          { buildMenu(item.children) }
+        </NavSubMenu>
+      );
+    }
 
     return (
-        <Drawer
-            className={`mobile-nav-drawer ${!drawerVisible ? 'small' : ''}`}
-            placement="left"
-            mask={isMobile}
-            closable={false}
-            visible={!isMobile || drawerVisible}
-            onClose={() => dispatch(setDrawerVisible(false))}
-            getContainer={false}
-        >
-            <div className={b()}>
-                <Menu
-                    className={!drawerVisible ? 'opened' : ''}
-                    mode="inline"
-                    theme="dark"
-                    expandIcon={() => null}
-                    selectedKeys={selectedKeys}
-                >
-
-                    { buildMenu(navItems) }
-                </Menu>
-                <div className="menu-footer">
-                    {drawerVisible && (
-                        <div className="contact-list">
-                            <Button type="link" href="tel:+78005503171" icon={<PhoneIcon />} className="list-item">
-                                <span>+7 (800) 550-31-71</span>
-                            </Button>
-                            <Button
-                                className="list-item"
-                                type="link"
-                                href="mailto:ooc@innopolis.ru"
-                                icon={<EmailIcon />}
-                            >
-                                <span>ooc@innopolis.ru </span>
-                            </Button>
-                            <div className="list-item">
-                                <LocationIcon />
-                                <span>
-                                    ул.Университетская, д.1
-                                    420500, г. Иннополис
-                                </span>
-                            </div>
-                        </div>
-                    )}
-                    <Divider />
-                    <ArrowIcon
-                        className={`footer-toggle ${!drawerVisible ? 'opened' : ''}`}
-                        onClick={() => dispatch(setDrawerVisible(!drawerVisible))}
-                    />
-                </div>
-            </div>
-        </Drawer>
-
+      <NavItem
+        key={item.id}
+        route={item.route}
+        label={item.translateKey || item.title}
+        icon={item.icon && getIcon(item.icon)}
+        shouldRender={checkAuthState(item.renderConditionString)}
+      />
     );
+  });
+
+  const checkAuthState = (condition: string) => {
+    const isAuthorized = condition === 'signedIn' && isSignedIn;
+    const isUnauthorized = condition === 'signedOut' && !isSignedIn;
+
+    return isAuthorized || isUnauthorized || !condition;
+  };
+   
+  const [selectedKeys] = useState([]);
+    
+  useEffect(() => {
+    if (isMobile) {
+      dispatch(setDrawerVisible(!isMobile));
+    }
+  }, [isMobile, dispatch]);
+
+  return (
+    <Drawer
+      className={`mobile-nav-drawer ${!drawerVisible ? 'small' : ''}`}
+      placement="left"
+      mask={isMobile}
+      closable={false}
+      visible={!isMobile || drawerVisible}
+      onClose={() => dispatch(setDrawerVisible(false))}
+      getContainer={false}
+    >
+      <div className={b()}>
+        <Menu
+          className={!drawerVisible ? 'opened' : ''}
+          mode="inline"
+          theme="dark"
+          expandIcon={() => null}
+          selectedKeys={selectedKeys}
+        >
+
+          { buildMenu(navItems) }
+        </Menu>
+        <div className="menu-footer">
+          {drawerVisible && (
+            <div className="contact-list">
+              <Button type="link" href="tel:+78005503171" icon={<PhoneIcon />} className="list-item">
+                <span>+7 (800) 550-31-71</span>
+              </Button>
+              <Button
+                className="list-item"
+                type="link"
+                href="mailto:ooc@innopolis.ru"
+                icon={<EmailIcon />}
+              >
+                <span>ooc@innopolis.ru </span>
+              </Button>
+              <div className="list-item">
+                <LocationIcon />
+                <span>
+                  ул.Университетская, д.1
+                  420500, г. Иннополис
+                </span>
+              </div>
+            </div>
+          )}
+          <Divider />
+          <ArrowIcon
+            className={`footer-toggle ${!drawerVisible ? 'opened' : ''}`}
+            onClick={() => dispatch(setDrawerVisible(!drawerVisible))}
+          />
+        </div>
+      </div>
+    </Drawer>
+
+  );
 };
 
 export default NavSideMenu;

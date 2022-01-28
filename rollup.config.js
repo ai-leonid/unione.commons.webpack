@@ -8,8 +8,8 @@ import svgr from '@svgr/rollup';
 import dts from 'rollup-plugin-dts';
 import { terser } from 'rollup-plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import { babel } from '@rollup/plugin-babel';
-import externals from 'rollup-plugin-node-externals';
+// import { babel } from '@rollup/plugin-babel';
+// import externals from 'rollup-plugin-node-externals';
 import { visualizer } from 'rollup-plugin-visualizer';
 
 
@@ -40,13 +40,6 @@ export default [
             }),
       */
       commonjs(),
-      /*babel({
-        babelrc: false,
-        babelHelpers: 'bundled',
-        plugins: [['import', { libraryName: 'antd', style: true }]],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        exclude: /\**node_modules\**!/,
-      }),*/
       url(),
       svgr(),
       json(),

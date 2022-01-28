@@ -21,36 +21,35 @@ interface Props {
     onMobileBurgerClick(): any
 }
 
-
 const NavTop: FC<Props> = ({
-    photoUrl,
-    userName,
-    isAuth,
-    userId,
-    onLogoutClick,
-    onLoginClick,
-    onMobileBurgerClick,
-    isMobile,
+  photoUrl,
+  userName,
+  isAuth,
+  userId,
+  onLogoutClick,
+  onLoginClick,
+  onMobileBurgerClick,
+  isMobile,
 }) => {
-    const b = bem('nav-top');
+  const b = bem('nav-top');
 
-    return (
-        <div className={b()}>
-            <a href="/">
-                <Logo />
-            </a>
-            {isMobile ? <BurgerIcon onClick={onMobileBurgerClick()} /> : (
-                <NavProfile
-                    photoUrl={photoUrl}
-                    userName={userName}
-                    isAuth={isAuth}
-                    userId={userId}
-                    onLogout={onLogoutClick}
-                    onLogin={onLoginClick}
-                />
-            )}
-        </div>
-    );
+  return (
+    <div className={b()}>
+      <a href="/">
+        <Logo />
+      </a>
+      {isMobile ? <BurgerIcon onClick={onMobileBurgerClick()} /> : (
+        <NavProfile
+          photoUrl={photoUrl}
+          userName={userName}
+          isAuth={isAuth}
+          userId={userId}
+          onLogout={onLogoutClick}
+          onLogin={onLoginClick}
+        />
+      )}
+    </div>
+  );
 };
 
 
