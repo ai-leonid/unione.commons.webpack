@@ -1,15 +1,11 @@
 // @ts-nocheck
 import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
 import bem from 'easy-bem';
-import { useSelector, useDispatch } from 'react-redux';
 
-import { NavProfile, Logo } from '../../components';
+import Logo from './components/Logo';
+import NavProfile from './components/NavProfile';
 
 import { ReactComponent as BurgerIcon } from '../../assets/icons/burger.svg';
-
-import { setDrawerVisible } from '../../models/common/actions';
-import { reducers } from '../../models';
 
 import './NavTop.less';
 
@@ -19,37 +15,38 @@ interface Props {
     userName?: string
     isAuth?: boolean
     userId: string
-    onLogout(): any,
-    onLogin(): any,
+    isMobile: string
+    onLogoutClick(): any
+    onLoginClick(): any
+    onMobileBurgerClick(): any
 }
 
-type RootState = ReturnType<typeof reducers>;
 
 const NavTop: FC<Props> = ({
     photoUrl,
     userName,
     isAuth,
     userId,
-    onLogout,
-    onLogin
+    onLogoutClick,
+    onLoginClick,
+    onMobileBurgerClick,
+    isMobile,
 }) => {
     const b = bem('nav-top');
-    const dispatch = useDispatch();
-    const isMobile = useSelector((state: RootState) => state.common.isMobile);
 
     return (
         <div className={b()}>
-            <Link to="/">
+            <a href="/">
                 <Logo />
-            </Link>
-            {isMobile ? <BurgerIcon onClick={() => dispatch(setDrawerVisible(true))} /> : (
+            </a>
+            {isMobile ? <BurgerIcon onClick={onMobileBurgerClick()} /> : (
                 <NavProfile
                     photoUrl={photoUrl}
                     userName={userName}
                     isAuth={isAuth}
                     userId={userId}
-                    onLogout={onLogout}
-                    onLogin={onLogin}
+                    onLogout={onLogoutClick}
+                    onLogin={onLoginClick}
                 />
             )}
         </div>

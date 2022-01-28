@@ -4,4 +4,13 @@ module.exports = {
     "@babel/preset-react",
     "@babel/preset-typescript",
   ],
+  'plugins': [
+    [
+      'import',
+      {
+        'libraryName': 'antd',
+        'style': 'css',
+      },
+    ],
+  ],
 };

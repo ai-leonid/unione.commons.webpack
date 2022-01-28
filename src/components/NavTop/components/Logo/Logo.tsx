@@ -1,4 +1,4 @@
-import React from 'react';
+// @ts-nocheck
 import bem from 'easy-bem';
 import Icon from '@ant-design/icons';
 

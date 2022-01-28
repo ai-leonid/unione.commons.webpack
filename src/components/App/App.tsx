@@ -1,8 +1,9 @@
+// @ts-nocheck
 import React from 'react';
 import 'antd/dist/antd.css';
 import './App.less';
 
-import { PageWrapper } from '../../components';
+// import { PageWrapper } from '../../components';
 import routes from '../../utils/routes';
 
 
@@ -175,7 +176,7 @@ const navItemsDefault = [
 ];
 
 const App = () => (
-    <PageWrapper
+    /* <PageWrapper
         isSignedIn
         navItems={navItemsDefault}
         photoUrl="https://placebear.com/200/300"
@@ -186,7 +187,8 @@ const App = () => (
         onLogin={() => { console.log('here onLogin'); }}
     >
         {routes}
-    </PageWrapper>
+    </PageWrapper> */
+    null
 );
 
 export default App;

@@ -5,8 +5,10 @@ interface Props {
     userName?: string;
     isAuth?: boolean;
     userId: string;
-    onLogout(): any;
-    onLogin(): any;
+    isMobile: string;
+    onLogoutClick(): any;
+    onLoginClick(): any;
+    onMobileBurgerClick(): any;
 }
 declare const NavTop: FC<Props>;
 export default NavTop;

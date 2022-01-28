@@ -1,14 +1,14 @@
+// @ts-nocheck
 import React, { FC } from 'react';
-import { NavLink } from 'react-router-dom';
 import bem from 'easy-bem';
 
-import UserCalendarIcon from '../../assets/icons/user-calendar.svg';
-import UserNotificationIcon from '../../assets/icons/user-notification.svg';
-import EyeIcon from '../../assets/icons/eye.svg';
-import UserAvatarIcon from '../../assets/icons/user-avatar.svg';
-import UserLogoutIcon from '../../assets/icons/user-logout.svg';
+import UserCalendarIcon from '../../../../assets/icons/user-calendar.svg';
+import UserNotificationIcon from '../../../../assets/icons/user-notification.svg';
+import EyeIcon from '../../../../assets/icons/eye.svg';
+import UserAvatarIcon from '../../../../assets/icons/user-avatar.svg';
+import UserLogoutIcon from '../../../../assets/icons/user-logout.svg';
 
-import { Button } from '../../components';
+import Button from '../../../Button-v2';
 
 import './NavProfile.less';
 
@@ -73,8 +73,8 @@ const NavProfile: FC<Props> = ({
             <div className={b('wrapper')}>
                 {isAuth ? (
                     <>
-                        <NavLink
-                            to="/personal"
+                        <a
+                            href="/personal"
                             className={b('user')}
                         >
                             <div className={b('user-avatar')}>
@@ -87,7 +87,7 @@ const NavProfile: FC<Props> = ({
                             <div className={b('user-name')}>
                                 {userName}
                             </div>
-                        </NavLink>
+                        </a>
                         <Button
                             type="link"
                             className={b('exit-button')}
