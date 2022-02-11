@@ -44,7 +44,7 @@ const NavMenu: FC<Props> = ({
   items,
   isAuth,
 }) => {
-  const b = bem('common-nav-menu');
+  const b = bem('commons-nav-menu');
 
   return (
     <div className={b()}>
@@ -72,7 +72,7 @@ const NavMenuMobile: FC<Props> = ({
     isAuth,
     onClose,
   }) => {
-  const b = bem('common-nav-mobile-menu');
+  const b = bem('commons-nav-mobile-menu');
 
   const handleBtnClose = () => {
     if (onClose) {

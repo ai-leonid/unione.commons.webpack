@@ -22,7 +22,7 @@ export const NavItem : FC<PropsNavItem> = (props) => {
     className: classNameProp
   } = props;
 
-  const b = bem('common-nav-menu-item');
+  const b = bem('commons-nav-menu-item');
 
   if (shouldRender === false) {
     return null;

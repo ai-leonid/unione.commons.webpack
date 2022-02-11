@@ -79,7 +79,7 @@ const Header: FC<Props> = ({
   onLoginClick,
   onMobileBurgerClick,
 }) => {
-  const b = bem('common-header');
+  const b = bem('commons-header');
 
   const [openedMobile, setOpenedMobile] = useState(false);
   const [fakeAuth, setFakeAuth] = useState(isAuth);

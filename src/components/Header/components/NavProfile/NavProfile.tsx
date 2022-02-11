@@ -30,7 +30,7 @@ const NavProfile: FC<Props> = ({
   onLogout,
   onLogin
 }) => {
-  const b = bem('nav-profile');
+  const b = bem('commons-nav-profile');
 
   const onLogoutHandler = (e) => {
     if (onLogout) {
