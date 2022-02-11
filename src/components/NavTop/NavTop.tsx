@@ -9,6 +9,7 @@ import { ReactComponent as BurgerIcon } from '../../assets/icons/burger.svg';
 
 import './NavTop.less';
 
+
 interface Props {
   photoUrl?: string
   userName?: string

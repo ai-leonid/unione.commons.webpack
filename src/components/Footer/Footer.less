@@ -1,0 +1,50 @@
+@import "../../theme/core.less";
+
+@footer-height: 55px;
+
+.common-footer {
+    z-index: 10;
+    height: @footer-height;
+    background: white;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    transition: all 0.5s;
+
+    @media screen and (max-width: 1400px) {
+        font-size: 12px;
+    }
+
+    &__content {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    &__item {
+        display: flex;
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    &__icon {
+        padding-right: 18px;
+
+        @media screen and (max-width: 1400px) {
+            padding-right: 6px;
+        }
+    }
+
+    &__text {
+        color: #909EBB;
+        display: flex;
+
+        a {
+            color: inherit;
+        }
+    }
+
+}

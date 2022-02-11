@@ -1,6 +1,5 @@
 {
   "extends": [
-    "react-app",
     "airbnb",
     "plugin:import/warnings",
     "plugin:jsx-a11y/recommended"
@@ -53,7 +52,7 @@
     "no-unneeded-ternary": ["warn"],
     "no-unused-expressions": ["warn"],
     "no-use-before-define": ["off"],
-    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-use-before-define": ["off", { "variables": false }],
     "no-undef-init": ["warn"],
     "no-unused-vars": ["warn"],
     "no-underscore-dangle": ["warn"],
