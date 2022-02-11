@@ -1,0 +1,72 @@
+@import "../../theme/core.less";
+
+@nav-height: 64px;
+
+.common-header {
+    z-index: 10;
+    height: @nav-height;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    transition: all 0.5s;
+    border-bottom: 1px solid #E4E7F2;
+;
+
+    &__logo{
+        padding-left: 28px;
+        width: 265px;
+    }
+
+    &__mobile-btn {
+        padding-right: 10px;
+        padding-left: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 100%;
+    }
+
+    &__profile-item {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 28px;
+        padding-right: 28px;
+
+        &--active, &:hover {
+            background: #F5FBFF;
+        }
+    }
+
+    &__profile-image {
+        padding-right: 16px;
+        /* FIX IT - microhack for icon alignment */
+        padding-top: 4px;
+    }
+
+    &__profile-name {
+        color: #6F7C98;
+    }
+
+    @media screen and (min-width: 1920px) {
+        // override logo @media
+        &__logo {
+            height: 36px;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 756px) {
+        padding: 16px 20px 16px 0;
+
+        &__logo {
+            height: 24px;
+        }
+    }
+}

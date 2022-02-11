@@ -3,10 +3,10 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './App.less';
 
-// import { PageWrapper } from '../../components';
-import routes from '../../utils/routes';
+import { Header, Footer } from '../../components';
 
 
+// eslint-disable-next-line
 const navItemsDefault = [
   {
     id: 'k1',
@@ -176,19 +176,12 @@ const navItemsDefault = [
 ];
 
 const App = () => (
-  /* <PageWrapper
-        isSignedIn
-        navItems={navItemsDefault}
-        photoUrl="https://placebear.com/200/300"
-        userName="test-uesr"
-        isAuth={false}
-        userId="123213213"
-        onLogout={() => { console.log('here onLogout'); }}
-        onLogin={() => { console.log('here onLogin'); }}
-    >
-        {routes}
-    </PageWrapper> */
-  null
+  <div>
+    <Header />
+    test content
+    <Footer />
+  </div>
+
 );
 
 export default App;

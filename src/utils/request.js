@@ -1,5 +1,4 @@
-import { getToken } from './auth';
-
+const getToken = () => ('test-token');
 
 const host = process.env.REACT_APP_BACKEND_HOST;
 const API = `${host}`;

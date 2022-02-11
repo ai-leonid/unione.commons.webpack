@@ -1,9 +1,7 @@
 /// <reference types="react" />
-import * as react from 'react';
 import { FC } from 'react';
-import * as react_router from 'react-router';
 
-interface Props$1 {
+interface Props$2 {
     photoUrl?: string;
     userName?: string;
     userId?: string;
@@ -13,7 +11,22 @@ interface Props$1 {
     onLoginClick?(): any;
     onMobileBurgerClick?(): any;
 }
-declare const NavTop: FC<Props$1>;
+declare const NavTop: FC<Props$2>;
+
+interface Props$1 {
+    navItems?: string;
+    photoUrl?: string;
+    userName?: string;
+    userId?: string;
+    isAuth?: boolean;
+    isMobile?: boolean;
+    onLogoutClick?(): any;
+    onLoginClick?(): any;
+    onMobileBurgerClick?(): any;
+}
+declare const Header: FC<Props$1>;
+
+declare const Footer: () => JSX.Element;
 
 interface Props {
     navItems?: object[];
@@ -24,12 +37,6 @@ interface Props {
 }
 declare const NavSideMenu: FC<Props>;
 
-declare const _default: react.ComponentClass<Pick<react_router.RouteComponentProps<any, react_router.StaticContext, unknown>, never>, any> & react_router.WithRouterStatics<react.ComponentType<react_router.RouteComponentProps<any, react_router.StaticContext, unknown>>>;
-
 declare const PageSubHeader: (props: any) => JSX.Element;
 
-declare const PageWrapper: ({ ...rest }: {
-    [x: string]: any;
-}) => JSX.Element;
-
-export { NavSideMenu, NavTop, PageSubHeader, PageWrapper, _default as ScrollToTop };
+export { Footer, Header, NavSideMenu, NavTop, PageSubHeader };
